@@ -14,7 +14,7 @@ export default function App() {
       <NavigationContainer>
         <Tab.Navigator screenOptions={styles.navigator} tabBarOptions={styles.tabBar}>
           <Tab.Screen name={"Game"} component={Game} options={styles.gameOption}/>
-          <Tab.Screen name={"Shop"} component={Shop} options={styles.shopOption} initialParams={{score: 8}}/>
+          <Tab.Screen name={"Shop"} component={Shop} options={styles.shopOption}/>
         </Tab.Navigator>
       </NavigationContainer>
   );
